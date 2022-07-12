@@ -6,6 +6,8 @@
 
 A budget tracker application that allows offline access and functionality. The user can add expenses and deposits to their budget with or without an internet connection. When user enters transactions offline, the total should be updated when they're brought back online.
 
+[budget tracker](https://budget-tracker-realnifty.herokuapp.com/)
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -21,13 +23,16 @@ Clone the code from this repository to your local machine. Node.js is required t
 
 ```
 - npm i for required dependencies
+- npm start to initalize server
 ```
 
 ## Usage
 
-```
+- Load the application by navigating to the [deployment](https://budget-tracker-realnifty.herokuapp.com/) on heroku.
+- Once there, open the dev tools and set throttling to offline.
+- User should now be able to continue in the application without a connection.
 
-```
+![app screenshot](./images/localhost_3001_.png)
 
 ## License
     
